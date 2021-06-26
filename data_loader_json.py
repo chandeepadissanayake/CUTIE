@@ -460,6 +460,7 @@ class DataLoader():
             bbox_id, bbox_mapid = 0, {} # one word in one or many positions in a bbox is mapped in bbox_mapid
             label_mapid = [[] for _ in range(self.num_classes)] # each class is connected to several bboxes (words)
             drawing_board = np.zeros([rows, cols_e], dtype=str)
+            file_name = None
             for item in doc:
                 file_name = item[0]
                 text = item[1]
