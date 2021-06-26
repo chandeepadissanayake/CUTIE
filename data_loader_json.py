@@ -44,7 +44,7 @@ class DataLoader():
         #self.classes = ['DontCare', 'Column0', 'Column1', 'Column2', 'Column3', 'Column4', 'Column5'] # for column
         #self.classes = ['DontCare', 'Column']
         #self.classes = ['DontCare', 'VendorName', 'VendorTaxID', 'InvoiceDate', 'InvoiceNumber', 'ExpenseAmount', 'BaseAmount', 'TaxAmount', 'TaxRate'] # for Spanish project
-        self.classes = ['DontCare', 'Total']
+        self.classes = ['O', 'Total']
 
         self.doc_path = params.doc_path
         self.doc_test_path = params.test_path
